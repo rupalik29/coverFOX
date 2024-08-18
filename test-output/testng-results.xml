@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching browser]]>
+    </line>
+    <line>
+      <![CDATA[waiting...]]>
+    </line>
+    <line>
+      <![CDATA[clicking on female button]]>
+    </line>
+    <line>
+      <![CDATA[clicking on next button]]>
+    </line>
+    <line>
+      <![CDATA[age is selected]]>
+    </line>
+    <line>
+      <![CDATA[clicking on next button]]>
+    </line>
+    <line>
+      <![CDATA[entering pincode]]>
+    </line>
+    <line>
+      <![CDATA[entering mobile number]]>
+    </line>
+    <line>
+      <![CDATA[click on continue button]]>
+    </line>
+    <line>
+      <![CDATA[validateBannersTC execution started]]>
+    </line>
+    <line>
+      <![CDATA[validatePresenceofSortButtonTC execution started]]>
+    </line>
+    <line>
+      <![CDATA[taking screenshot]]>
+    </line>
+    <line>
+      <![CDATA[saving file at location C:\Users\Admin\eclipse-workspace\CoverFoxInsurance\screenShots\validatePresenceofSortButton20240810234427.png]]>
+    </line>
+    <line>
+      <![CDATA[Closing browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-08-10T23:44:00 IST" name="Suite" finished-at="2024-08-10T23:44:29 IST" duration-ms="29040">
+    <groups>
+    </groups>
+    <test started-at="2024-08-10T23:44:00 IST" name="Test" finished-at="2024-08-10T23:44:29 IST" duration-ms="29040">
+      <class name="coverFoxTest.CoverFoxTC1">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:coverFoxTest.CoverFoxTC1@15de0b3c]" started-at="2024-08-10T23:44:00 IST" name="launchBrowser" finished-at="2024-08-10T23:44:05 IST" duration-ms="5212" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching browser]]>
+            </line>
+            <line>
+              <![CDATA[waiting...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="preConditions()[pri:0, instance:coverFoxTest.CoverFoxTC1@15de0b3c]" started-at="2024-08-10T23:44:05 IST" name="preConditions" finished-at="2024-08-10T23:44:22 IST" duration-ms="16588" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[clicking on female button]]>
+            </line>
+            <line>
+              <![CDATA[clicking on next button]]>
+            </line>
+            <line>
+              <![CDATA[age is selected]]>
+            </line>
+            <line>
+              <![CDATA[clicking on next button]]>
+            </line>
+            <line>
+              <![CDATA[entering pincode]]>
+            </line>
+            <line>
+              <![CDATA[entering mobile number]]>
+            </line>
+            <line>
+              <![CDATA[click on continue button]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preConditions -->
+        <test-method signature="validateBanners()[pri:0, instance:coverFoxTest.CoverFoxTC1@15de0b3c]" started-at="2024-08-10T23:44:22 IST" name="validateBanners" finished-at="2024-08-10T23:44:24 IST" duration-ms="2242" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[validateBannersTC execution started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateBanners -->
+        <test-method signature="validatePresenceofSortButton()[pri:0, instance:coverFoxTest.CoverFoxTC1@15de0b3c]" started-at="2024-08-10T23:44:24 IST" name="validatePresenceofSortButton" finished-at="2024-08-10T23:44:27 IST" duration-ms="3374" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[validatePresenceofSortButtonTC execution started]]>
+            </line>
+            <line>
+              <![CDATA[taking screenshot]]>
+            </line>
+            <line>
+              <![CDATA[saving file at location C:\Users\Admin\eclipse-workspace\CoverFoxInsurance\screenShots\validatePresenceofSortButton20240810234427.png]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validatePresenceofSortButton -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:coverFoxTest.CoverFoxTC1@15de0b3c]" started-at="2024-08-10T23:44:27 IST" name="closeBrowser" finished-at="2024-08-10T23:44:29 IST" duration-ms="1491" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closing browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- coverFoxTest.CoverFoxTC1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

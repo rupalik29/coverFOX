@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="coverFoxTest.CoverFoxTC112">
+        <methods>
+          <include name="cloeBrowser"/>
+          <include name="validatePresenceofSortButton"/>
+          <include name="validateBanners"/>
+          <include name="launchBrowser"/>
+          <include name="preConditions"/>
+        </methods>
+      </class> <!-- coverFoxTest.CoverFoxTC112 -->
+      <class name="coverFoxTest.CoverFoxTC1">
+        <methods>
+          <include name="validatePresenceofSortButton"/>
+          <include name="closeBrowser"/>
+          <include name="preConditions"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- coverFoxTest.CoverFoxTC1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
